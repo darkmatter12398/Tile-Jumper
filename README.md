@@ -26,6 +26,9 @@ The screen will also show a game over screen, or a "You win!" screen depending o
 
 ## Obstacles
 The player has 2 main obstacles to go through: traps, and enemies. Enemies are moving around, and if the player makes contact with them, they will lose a life. This also goes for traps, but they are stationary.
+
+
+
 ![image](https://user-images.githubusercontent.com/77501024/211981382-1416d779-a1ae-41f0-9971-2beebb427432.png)
 ![image](https://user-images.githubusercontent.com/77501024/211981436-dbdde775-e086-4ab1-84c2-5257fa21f595.png)
 
