@@ -12,7 +12,7 @@ pip install pygame
 # Functionality
 ## Main menu
 The main menu consists of 2 buttons: play, and exit. Pressing play will allow you to play the game, and pressing exit will allow you to exit to your desktop.
-![image](https://user-images.githubusercontent.com/77501024/211980205-5f832ca3-d06a-46d4-b667-0f1a9d2b8e5a.png)
+![image!](https://user-images.githubusercontent.com/77501024/211980205-5f832ca3-d06a-46d4-b667-0f1a9d2b8e5a.png)
 
 ## Movement
 Once the user hits play, an entity will drop down from the sky. This will be the player that the user can control. Use "A" to go left, and "D" to go right. Press spacebar to jump.
