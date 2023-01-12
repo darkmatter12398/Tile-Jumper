@@ -16,6 +16,7 @@ The main menu consists of 2 buttons: play, and exit. Pressing play will allow yo
 
 ## Movement
 Once the user hits play, an entity will drop down from the sky. This will be the player that the user can control. Use "A" to go left, and "D" to go right. Press spacebar to jump.
+
 ![image](https://user-images.githubusercontent.com/77501024/211980746-1958af02-46b7-492a-b2f1-5621b5c28cb5.png)
 
 ## GUI
