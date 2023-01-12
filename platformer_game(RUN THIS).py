@@ -13,33 +13,33 @@ pygame.display.set_caption("Tile Jumper")
 clock = pygame.time.Clock()
 
 # string files/constants
-PLAYER_IDLE_SPRITE = "player_idle.png"
-PLAYER_LEFT_SPRITE = "player_left.png"
-PLAYER_RIGHT_SPRITE = "player_right.png"
-ENEMY_SPRITE = "enemy.png"
-GRASS_SPRITE = "grass_tile.png"
-PLAY_BUTTON_SPRITE = "play.png"
-OPTIONS_BUTTON_SPRITE = "options.png"
-QUIT_BUTTON_SPRITE = "quit.jpeg"
-SKY_SPRITE = "sky.png"
-SPIKE_SPRITE = "spike.png"
-GAME_OVER_TEXT_SPRITE = "game_over_text.png"
-FLAG_SPRITE = "flag.png"
-CITY_SPRITE = "city.png"
-PLANK_SPRITE = "plank.png"
-HEART_3 = "heart_3.png"
-HEART_2 = "heart_2.png"
-HEART_1 = "heart_1.png"
-RED_SKY_SPRITE = "red_sky.png"
-TITLE_SPRITE = "title.png"
-PRESS_E_TEXT_SPRITE = "press_e_text.png"
-YOU_WIN_TEXT_SPRITE = "you_win_text.png"
-SPACE_SPRITE = "space.png"
-LEVEL_1_TEXT_SPRITE = "level_1_text.png"
-LEVEL_2_TEXT_SPRITE = "level_2_text.png"
-LEVEL_3_TEXT_SPRITE = "level_3_text.png"
-LEVEL_4_TEXT_SPRITE = "level_4_text.png"
-LEVEL_5_TEXT_SPRITE = "level_5_text.png"
+PLAYER_IDLE_SPRITE = "images/player_idle.png"
+PLAYER_LEFT_SPRITE = "images/player_left.png"
+PLAYER_RIGHT_SPRITE = "images/player_right.png"
+ENEMY_SPRITE = "images/enemy.png"
+GRASS_SPRITE = "images/grass_tile.png"
+PLAY_BUTTON_SPRITE = "images/play.png"
+OPTIONS_BUTTON_SPRITE = "images/options.png"
+QUIT_BUTTON_SPRITE = "images/quit.jpeg"
+SKY_SPRITE = "images/sky.png"
+SPIKE_SPRITE = "images/spike.png"
+GAME_OVER_TEXT_SPRITE = "images/game_over_text.png"
+FLAG_SPRITE = "images/flag.png"
+CITY_SPRITE = "images/city.png"
+PLANK_SPRITE = "images/plank.png"
+HEART_3 = "images/heart_3.png"
+HEART_2 = "images/heart_2.png"
+HEART_1 = "images/heart_1.png"
+RED_SKY_SPRITE = "images/red_sky.png"
+TITLE_SPRITE = "images/title.png"
+PRESS_E_TEXT_SPRITE = "images/press_e_text.png"
+YOU_WIN_TEXT_SPRITE = "images/you_win_text.png"
+SPACE_SPRITE = "images/space.png"
+LEVEL_1_TEXT_SPRITE = "images/level_1_text.png"
+LEVEL_2_TEXT_SPRITE = "images/level_2_text.png"
+LEVEL_3_TEXT_SPRITE = "images/level_3_text.png"
+LEVEL_4_TEXT_SPRITE = "images/level_4_text.png"
+LEVEL_5_TEXT_SPRITE = "images/level_5_text.png"
 
 # player
 player = Player(30, 0, PLAYER_IDLE_SPRITE, USER_SCREEN) # param: (x, y, string file, screen, scale_value)
@@ -89,11 +89,11 @@ level = 1 # level int
 player_health = 3 # player health int
 
 # music
-game_over_music = mixer.Sound("game_over_music.wav")
-health_loss_sound = mixer.Sound("health_loss.mp3")
-jump_sound = mixer.Sound("jump.wav")
-win_sound = mixer.Sound("win.wav")
-next_level = mixer.Sound("next_level.mp3")
+game_over_music = mixer.Sound("sounds/game_over_music.wav")
+health_loss_sound = mixer.Sound("sounds/health_loss.wav")
+jump_sound = mixer.Sound("sounds/jump.wav")
+win_sound = mixer.Sound("sounds/win.wav")
+next_level = mixer.Sound("sounds/next_level.wav")
 
 # main game loop
 while True:
