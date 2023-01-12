@@ -12,6 +12,7 @@ pip install pygame
 # Functionality
 ## Main menu
 The main menu consists of 2 buttons: play, and exit. Pressing play will allow you to play the game, and pressing exit will allow you to exit to your desktop.
+
 ![image](https://user-images.githubusercontent.com/77501024/211980205-5f832ca3-d06a-46d4-b667-0f1a9d2b8e5a.png)
 
 ## Movement
@@ -21,6 +22,7 @@ Once the user hits play, an entity will drop down from the sky. This will be the
 
 ## GUI
 The amount of lives the player has is displayed in the top left corner, and the level the user is in is displayed in the top right corner.
+
 ![image](https://user-images.githubusercontent.com/77501024/211981152-0a74c9b0-8788-498d-b525-459ab14d59fa.png)
 
 The screen will also show a game over screen, or a "You win!" screen depending on if the player lost all their lives, or completed level 5.
@@ -28,12 +30,11 @@ The screen will also show a game over screen, or a "You win!" screen depending o
 ## Obstacles
 The player has 2 main obstacles to go through: traps, and enemies. Enemies are moving around, and if the player makes contact with them, they will lose a life. This also goes for traps, but they are stationary.
 
-
-
 ![image](https://user-images.githubusercontent.com/77501024/211981382-1416d779-a1ae-41f0-9971-2beebb427432.png)
 ![image](https://user-images.githubusercontent.com/77501024/211981436-dbdde775-e086-4ab1-84c2-5257fa21f595.png)
 
 If the player falls off a cliff, then they also lose a life.
+
 ![image](https://user-images.githubusercontent.com/77501024/211981538-8b9199c5-ff11-47ec-8482-b3ea9625072e.png)
 
 # Level design
