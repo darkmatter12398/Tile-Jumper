@@ -37,6 +37,6 @@ If the player falls off a cliff, then they also lose a life.
 
 ![image](https://user-images.githubusercontent.com/77501024/211981538-8b9199c5-ff11-47ec-8482-b3ea9625072e.png)
 
-# Level design
+## Level design
 Each level has some sort of theme to it, judging by the background picture and the texture of the blocks. They also get progressively harder, but because of the difficulty, the player gains back all their lives after each level is completed
 
